@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="format-detection" content="telephone=no">
 <meta name="theme-color" content="#f8f9ff">
 <title>Monroytec's — Datos para recibir dinero</title>
 <style>
@@ -248,7 +249,7 @@
           <div class="brand">Monroy<span>tec's</span></div>
           <div class="chip"></div>
         </div>
-        <div class="card-number">7229 6901 6277 5511 93</div>
+        <div class="card-number" role="button" tabindex="0" onclick="copyText(data.clabe, 'CLABE copiada.')" onkeydown="if(event.key==='Enter' || event.key===' ') copyText(data.clabe, 'CLABE copiada.')">7229 6901 6277 5511 93</div>
         <div class="card-bottom">
           <div>
             BENEFICIARIO
